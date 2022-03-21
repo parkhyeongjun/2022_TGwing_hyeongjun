@@ -50,7 +50,7 @@ def letMeIntroduceMyself():
     university = input("재학 중인 대학을 입력하세요: ")
     birthday = input("생일을 입력하세요: ")
     birth_month = (birthday[2:4] + "월")
-    birth_date = (birthday[4,6] + "일")
+    birth_date = (birthday[4:6] + "일")
     ans = ("제 이름은 " + name +"입니다. 제 취미는 " + hobby + "이구요. 저는 " + university + "를 다니고 있습니다. 제 생일은 " + birth_month + birth_date + "입니다.")
     # your code
     return ans
