@@ -38,7 +38,6 @@ def alram(time):
     if min < 0:
         hour = hour -1
         min = 60 + min
-
     if hour > 12:
         hour = hour - 12 
         status = "오후 "
