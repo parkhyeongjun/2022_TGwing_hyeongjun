@@ -44,7 +44,7 @@ def alram(time):
     ans = status + str(hour) + "시 " + str(min) +"분"
     # your code
     return ans
-    s
+
 # 문제 4번
 def findDaesun(x1,y1,r1,x2,y2,r2):
     pow_x = (x2 - x1)  ** 2
